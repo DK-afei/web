@@ -1,0 +1,21 @@
+body
+{
+	background-color: chartreuse;
+	text-align: center;
+}
+table
+{
+	width: 100%;
+	
+}
+table, td, th
+{
+	border: 1px solid green;
+	text-align: center;
+}
+th
+{
+	height: 50px;
+	background-color: green;
+	color: white;
+}
