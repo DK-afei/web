@@ -1,0 +1,56 @@
+nav ul
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+nav ul li
+{
+	height: 30px;
+	width: 20%;
+	list-style: none;
+	float: left;
+	display: inline;
+	font: 0.9em arial,helvetica,sans-serif;
+}
+nav ul li a
+{
+	color: #FFF;
+	width: 100%;
+	margin: 0px;
+	padding: 0px 0px 0px 88px;
+	text-decoration: none;
+	display: block;
+	background:#808080;
+	line-height: 29px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+nav ul li ul li
+{
+	width: 100%;
+	height: 25px;
+}
+nav ul li ul li a
+{
+	background: #666;
+	line-height: 24px;
+}
+nav ul li a:hover
+{
+	background: #666;
+	border-bottom: 1px dashed #FF0000;
+}
+nav ul li ul
+{
+	visibility: hidden;
+}
+nav ul li:hover ul
+{
+	visibility: visible;
+}
+nav ul li ul li a:hover
+{
+	background: #333;
+	
+}

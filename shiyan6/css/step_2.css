@@ -1,0 +1,61 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background-color: #EDEDED;
+}
+.boke_nav
+{
+	background-color: #FF0000;
+	font-size: 0px;
+}
+.boke_nav h3
+{
+	font-style: normal;
+	font-family: "楷体";
+	font-size: large;
+}
+.boke_nav ul
+{
+	width: 1100px;
+	overflow: hidden;
+	background-color: #EDEDED;
+}
+.boke_nav ul li
+{
+	font-family: "楷体";
+	font-size: large;
+	text-align: center;
+	width: 98px;
+	/* float: left; */
+	display: inline-block;
+	list-style: none;
+	border-left: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	background-color: aqua;
+}
+.boke_nav ul .first
+{
+	background-color: yellow;
+}
+.boke_nav ul .second
+{
+	background-color: yellow;
+}
+.boke_nav ul .third
+{
+	background-color: yellow;
+}
+.boke_nav ul .fourth
+{
+	background-color: yellow;
+}
+.boke_nav ul .fifth
+{
+	background-color: yellow;
+}

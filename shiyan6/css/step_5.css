@@ -1,0 +1,114 @@
+.movieBar .movie li
+{
+	list-style: none;
+}
+
+.movieBar .movie li .frame1
+{
+	position: relative;
+}
+.movieBar .movie li  .frame1 a img
+{
+	background-color: black;
+	opacity: 0.5;
+}
+.movieBar .movie li .frame1 p
+{
+	position: absolute;
+    bottom: -10px;
+}
+.movieBar .movie li .frame1 .movieName h2 a
+{
+	position: absolute;
+    bottom: -35px;
+}
+.movieBar .movie li .frame1 .movieName p
+{
+	position: absolute;
+    bottom: -75px;
+}
+
+
+
+
+.movieBar .movie li .frame2
+{
+	position: relative;
+	bottom: 176px;
+	right: -300px;
+}
+.movieBar .movie li  .frame2 a img
+{
+	background-color: black;
+	opacity: 0.5;
+}
+.movieBar .movie li .frame2 p
+{
+	position: absolute;
+    bottom: -10px;
+}
+.movieBar .movie li .frame2 .movieName h2 a
+{
+	position: absolute;
+    bottom: -35px;
+}
+.movieBar .movie li .frame2 .movieName p
+{
+	position: absolute;
+    bottom: -75px;
+}
+
+
+.movieBar .movie li .frame3
+{
+	position: relative;
+	bottom: 130px;
+}
+.movieBar .movie li  .frame3 a img
+{
+	background-color: black;
+	opacity: 0.5;
+}
+.movieBar .movie li .frame3 p
+{
+	position: absolute;
+    bottom: -10px;
+}
+.movieBar .movie li .frame3 .movieName h2 a
+{
+	position: absolute;
+    bottom: -35px;
+}
+.movieBar .movie li .frame3 .movieName p
+{
+	position: absolute;
+    bottom: -75px;
+}
+
+
+.movieBar .movie li .frame4
+{
+	position: relative;
+	bottom: 306px;
+	right: -300px;
+}
+.movieBar .movie li  .frame4 a img
+{
+	background-color: black;
+	opacity: 0.5;
+}
+.movieBar .movie li .frame4 p
+{
+	position: absolute;
+    bottom: -10px;
+}
+.movieBar .movie li .frame4 .movieName h2 a
+{
+	position: absolute;
+    bottom: -35px;
+}
+.movieBar .movie li .frame4 .movieName p
+{
+	position: absolute;
+    bottom: -75px;
+}
