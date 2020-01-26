@@ -1,0 +1,103 @@
+.out {
+  	margin: 300px auto;
+  	width: 400px;
+  	height: 200px;
+  	border-radius: 3px;
+  	overflow: hidden;
+  	position: relative;
+	top: 75px;
+	left: 425px;
+  }
+
+  .out ul {
+  	list-style: none;
+  	width: 2000px;
+  	position: absolute;
+  	left: 0;
+  	transition: all .5s;
+  }
+
+  .out li {
+  	float: left;
+  	height: 200px;
+  }
+
+  .out img {
+  	width: 400px;
+  	height: 200px;
+  }
+
+  .more {
+  	position: absolute;
+  	width: 50px;
+  	height: 25px;
+  	line-height: 25px;
+  	font-size: 12px;
+  	text-decoration: none;
+  	color: #fff;
+  	bottom: 30px;
+  	right: 25px;
+  	text-align: center;
+  	background-color: rgba(0, 0, 0, .5);
+  	border-radius: 4px;
+  	opacity: 0;
+  	transition: all .2s;
+  }
+
+  .img:hover+.more,
+  .more:hover {
+  	opacity: 1;
+  }
+
+  .search {
+  	position: absolute;
+  	width: 150px;
+  	height: 20px;
+  	bottom: 0;
+  	right: 0;
+  	z-index: 10;
+  }
+
+  .search ul {
+  	width: 150px;
+  }
+
+  .dianout {
+  	width: 15px;
+  	height: 15px;
+  	border-radius: 50%;
+  	margin: 0 5px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	cursor: pointer;
+  }
+
+  .dianin {
+  	width: 11px;
+  	height: 11px;
+  	background: #fff;
+  	border-radius: 50%;
+  }
+
+  .on {
+  	border: 2px solid #fff;
+  	background: dodgerblue;
+  }
+
+  .dianin:hover {
+  	border: 2px solid #fff;
+  	background: dodgerblue;
+  }
+
+  .shadow {
+  	width: 100%;
+  	height: 40px;
+  	position: absolute;
+  	z-index: 9;
+  	background: linear-gradient(0, rgba(0, 0, 0, .7), rgba(0, 0, 0, 0));
+  	bottom: 0;
+  }
+
+
+

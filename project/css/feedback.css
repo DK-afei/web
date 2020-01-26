@@ -1,0 +1,242 @@
+span{
+	margin: 10px;
+	display: inline-block;
+}
+.manager-main{
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	margin: 20px 20px 20px 20px;
+	background: #fff;
+	padding: 20px;
+	overflow-x: auto;
+	border-radius: 5px;
+
+} 
+
+.manager-table{
+	table-layout:fixed;
+	min-width: 400px;
+}
+.manager-table th span{
+	float: right;
+}
+.manager-table td,
+.manager-table th{
+	overflow-x: hidden;
+}
+
+.manager-questions-table th:nth-of-type(1),
+.manager-courses-table th:nth-of-type(1){
+	width: 50px;
+}
+
+.manager-questions-table th:nth-of-type(4),
+.manager-courses-table th:nth-of-type(4){
+	width: 80px;
+}
+
+.manager-questions-table th:nth-of-type(5),
+.manager-courses-table th:nth-of-type(5){
+	width: 160px;
+}
+
+.manager-questions-table th:nth-of-type(6),
+.manager-courses-table th:nth-of-type(6){
+	width: 130px;
+}
+
+.my-modal-content{
+	border: 1px solid #eee;
+	border-radius: 3px;
+	background: #fff;
+}
+
+.my-modal-header{
+	margin: 20px;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.my-modal-body{
+	margin: 20px;
+}
+
+.my-modal-footer{
+	margin: 20px;
+	font-weight:bold;
+	text-align: right;
+}
+
+.manager-search{
+	float: right;
+	width:250px;
+}
+
+.edit-title{
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 25px;
+	border: 1px dashed  #CFCFCF;
+    padding: 10px;
+	transition: all 0.2s;
+	line-height: 50px;
+	font-weight: bold;
+	border-radius: 4px;
+	height: auto;
+}
+.edit-title:hover,
+.edit-subtitle:hover{
+	border: dashed 1px #aaa;
+}
+
+.edit-title:focus,
+.edit-subtitle:focus{
+	border: dashed 1px #66afe9;
+	height: auto;
+	outline: 0;
+}
+
+.edit-subtitle{
+	display: block;
+	width: 100%;
+	text-align: left;
+	font-size:15px;
+	resize: none;
+	border: 1px dashed #CFCFCF;
+    padding: 10px;
+	transition: all 0.5s;
+	line-height: 20px;
+	border-radius: 4px;
+	height: auto;
+	min-height: 120px;
+}
+
+.edit-error,
+.edit-error:hover,
+.edit-error:focus{
+	border-color:#f00;
+}
+
+.edit-question label{
+	font-weight: 500;
+}
+
+.edit-question p{
+	display: block;
+	margin: 5px 10px;
+}
+
+.edit-question p:first-child{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.edit-question label{
+	overflow-x: hidden;
+	position: relative;
+	display: block;
+}
+
+.edit-question input[type='radio'],
+.edit-question input[type='checkbox']{
+	margin: 10px 5px;
+}
+
+.edit-question input[type='text']{
+	outline: 0;
+	width: 94%;
+	padding: 5px;
+	padding-right: 80px;
+}
+.edit-question input[type='text']:first-of-type{
+	padding-right: 5px;
+}
+
+.edit-option{
+	transition: border 0.5s;
+	overflow-x: hidden;
+	border: 1px dashed #eee;
+}
+
+.edit-option:hover{
+	border: 1px dashed #aaa;
+}
+
+.edit-option:focus{
+	border: 1px dashed #66afe9;
+}
+
+.edit-sunjection-div{
+	width: 100%; 
+	height: 100px;
+	border: 1px solid #aaa;
+	margin-top: 10px;
+}
+
+.manager-edit-main{
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	margin:0;
+	background: #fff;
+	padding: 10px;
+	/*overflow-x: auto;*/
+	border-radius: 5px;
+}
+
+
+.edit-question-menu{
+	position: absolute;
+	display: block;
+	right: 10px;
+	top: 100px;
+	float: right;
+	background: #fff;
+	border-radius: 5px;
+	width: 70px;
+	padding: 5px;
+	overflow: hidden;
+	transition: top 0.2s;
+}
+
+
+.edit-question-menu div{
+	width: 100%;
+}
+
+.edit-option-menu{
+	position: absolute;
+	top: -50;
+	width: auto;
+	height: auto;
+	transition: opacity  0.2s;
+	opacity: 0;
+}
+
+.userName{
+	position:absolute;right: 20px;top: 38px;
+}
+
+.btn{
+	transition: all 0.2s; 
+}
+input{
+	height: 40px;
+	/*width: 100%;*/
+	margin-top: 10px;
+}
+input.addSigSelect{
+	height: 40px;
+	width: 100px;
+	border-radius: 10%;
+}
+input.delete{
+	display: none;
+	width: 50px;
+}

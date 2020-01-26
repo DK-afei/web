@@ -1,0 +1,91 @@
+
+#features
+{
+	height: 360px;
+	width: 448px;
+}
+#features a:link,
+#features a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+#features a:hover {
+	text-decoration: none;
+}
+
+#features h2 {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+/* Table切换 */
+#features.list0 {
+	width: 638px;
+	margin-top: 25px;
+	float: left;
+	position: relative;
+}
+
+#SwitchBigPic {
+	border: 1px solid #ddd;
+}
+
+/*先隐藏所有左边的图片*/
+#SwitchBigPic span {
+	display: none;
+}
+
+#SwitchBigPic img {
+	width: 448px;
+	height: 312px;
+}
+
+/*类名为sp表示显示该元素*/
+#SwitchBigPic .sp {
+	display: block;
+}
+#SwitchNav {
+	width: 135px;
+	position: absolute;
+	top: 324px;
+	left: 649px;
+}
+#SwitchNav li {
+	width: 135px;
+	height: 104px;
+	margin-bottom: 1px;
+}
+
+#SwitchNav a {
+	display: block;
+	width: 135px;
+	height: 104px;
+	background: url(../img/hover_change/s1.png) no-repeat;
+}
+
+#SwitchNav .txt_img2 {
+	background: url(../img/hover_change/s2.png) no-repeat;
+}
+
+#SwitchNav .txt_img3 {
+	background: url(../img/hover_change/s3.png) no-repeat;
+}
+
+#SwitchNav .txt_img1:hover {
+	background: url(../img/hover_change/s11.png) no-repeat;
+}
+
+#SwitchNav .txt_img2:hover {
+	background: url(../img/hover_change/s22.png) no-repeat;
+}
+
+#SwitchNav .txt_img3:hover {
+	background: url(../img/hover_change/s33.png) no-repeat;
+}
+
+
+
+
+
+
