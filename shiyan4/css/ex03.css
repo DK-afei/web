@@ -1,0 +1,45 @@
+body
+{
+	text-align: center;
+	text-indent: 1.75em;
+}
+body header h1 em
+{
+	font-size: 15px;
+}
+main div h2
+{
+	text-align: left;
+	font-size: 15px;
+}
+main div
+{
+	text-align: center;
+}
+main div p
+{
+	display: table;
+	margin: 0 auto;
+	text-align: left;
+	text-indent: 1.75em;
+	line-height: normal;
+}
+
+.bestseller p em
+{
+	text-decoration: underline;
+}
+
+footer .shouhou
+{
+	font-weight: bold;
+}
+.boss table
+{
+	margin: auto;
+}
+.boss table tr td h3,p
+{
+	text-align: left;
+	line-height: 0.66em;
+}

@@ -1,0 +1,60 @@
+body{
+	font-family: 16px;
+	background-color: #ededed;
+}
+.logo
+{
+	border-bottom: 3px solid yellow;
+	border-width: thick;
+}
+a{
+	text-decoration: none;
+	color: #0000FF;
+}
+p{
+	text-indent: 1.75em;
+	line-height: 1.4em;
+}
+ol li
+{
+	list-style-type: none;
+}
+.logo{
+	background-color: #0A435E;
+	font-size: 0.75em;
+}
+h3{
+	color: white;
+	font-size: 0.75em;
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+h1{
+	text-align: center;
+	text-transform: full-width;
+	font-size: 1em;
+	letter-spacing: normal;
+}
+.contentarea p span{
+	color: #FF0000;
+}
+.contentarea p span a{
+	color: #FF0000;
+	font-weight: bold;
+}
+.navigation ul li{
+	width: 50%;
+	height: 30px;
+	vertical-align: middle;
+	line-height: 30px;
+	/* background-color: #0A435E;
+	color: white; */
+	list-style: none;
+	border-width: thick;
+	border-style: groove;
+}
+.homepagefooter p{
+	border-top: 3px solid darkgoldenrod;
+	border-width: thick;
+	text-align: center;
+}
