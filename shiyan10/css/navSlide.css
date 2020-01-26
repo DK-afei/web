@@ -1,0 +1,53 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;	
+	color: #000000;
+	display: block;
+}
+li:hover{
+	background: seashell;
+	transform: scale(1.05);
+}
+ul{
+	width: 102%;
+	height: 0px;
+	overflow: hidden;
+}
+li{
+	width: 100%;
+	height: 30px;
+	padding: 10px;padding-left: 30px;
+	list-style: none;
+	border-bottom: 1px solid #DCDCDC;
+	transition: 0.5s;/* transform变化之后，过度效果需要多少时间*/
+}
+.wrap{
+	width: 90%;
+	height: auto;
+	margin: auto;
+}
+.Nav{
+	width: 100%;
+	height: 30px;
+	background-color: black;
+	color: white;
+	line-height: 30px;
+	padding: 10px;
+	position: relative;
+}
+span{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	font-size: 40px;
+	font-family: "新宋体";
+	line-height: 50px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.5s
+}

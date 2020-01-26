@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>111</title>
+	</head>
+	<body>
+		<input type="button" name="" id="open" value="open" />
+		<input type="button" name="" id="clear" value="clear" />
+		<script type="text/javascript">
+			var oBut1=document.getElementById('open');
+			var oBut2=document.getElementById('clear');
+			var timer=null;
+			
+			oBut1.onclick=function(){
+				timer = setInterval(function(){
+					console.log('a');
+				},1000);
+			}
+			oBut2.onclick=function(){
+				clearInterval(timer);
+			}
+		</script>
+	</body>
+</html>
