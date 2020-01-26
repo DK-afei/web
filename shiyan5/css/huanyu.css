@@ -1,0 +1,109 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	font-size:16px;
+	font-family: 微软雅黑,"times new roman";
+	width: 100%;
+}
+li
+{
+	list-style: none;
+}
+header
+{
+	margin: 0 auto;
+}
+.logo
+{
+	float: left;
+	margin-top: 10px;
+}
+.select
+{
+	width: 200px;
+	height: 65px;
+	float: right;
+	margin-top: 20px;
+}
+.picture
+{
+	height: 200px;
+	clear: both;
+	background: url("https://1.dam.s81c.com/m/6041f5ebf0679830/original/09122019-system-z-launch-21899-2112x760.jpg") no-repeat;
+	/* height: 345px;
+	width: 990px;
+	background-image: url(../images/huanyu.jpg); */
+}
+nav
+{
+	height: 60px;
+	background: #0099CC;
+}
+nav ul li
+{
+	float: left;
+	width: 20%;
+	text-align: center;
+	height: 80px;
+	line-height: 60px;
+}
+nav ul li a
+{
+	font-size: 18px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+nav ul li a:hover
+{
+	color: #333333;
+	text-decoration: none;
+}
+.left
+{
+	width: 65%;
+	height: 420px;
+	float: left;
+	line-height: 1.5em;
+}
+.left h3
+{
+	border-bottom: 3px solid #0099FF;
+	color: #0099FF;
+}
+.left table tr td
+{
+	text-align: left;
+	vertical-align: top;
+}
+.right
+{
+	width: 30%;
+	height: 380px;
+	float: right;
+}
+.right h3
+{
+	border-bottom: 3px solid #0099FF;
+	color: #0099FF;
+}
+.right ul li
+{
+	line-height: 3.5em;
+}
+footer
+{
+	clear:both;
+	height: 30px;
+	border-top: 1px solid #0099FF;
+}
+footer p
+{
+	font-size: 12px;
+	padding: 10px auto;
+	text-align: center;
+	color: #333333;
+}
