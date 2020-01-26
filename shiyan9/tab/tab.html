@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Tab练习</title>
+		<style type="text/css">
+			.container {
+				width: 300px;
+				margin: 0 auto;
+				border: 1px solid orange;
+			}
+			
+			.content {
+				width: 300px;
+				height: 300px;
+				border: 1px solid orange;
+				display: none;
+			}
+			
+			.show {
+				display: block;
+			}
+		</style>
+		<script type="text/javascript">
+			window.onload = function() {
+				var oDiv = document.getElementById('tab');
+				var oIpts = oDiv.getElementsByTagName('input');
+				var oDivs = oDiv.getElementsByTagName('div');
+
+				for(var i = 0; i < oIpts.length; i++) {
+					oIpts[i].onclick = function() {
+						for(var i = 0; i < oIpts.length; i++) {
+							if(oIpts[i] == this) {
+								oDivs[i].className = 'content show';
+							} else {
+								oDivs[i].className = 'content';
+							}
+						}
+					}
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<div id="tab" class="container">
+			<input type="button" name="" id="" value="英语" />
+			<input type="button" name="" id="" value="数学" />
+			<input type="button" name="" id="" value="物理" />
+			<div id="" class="content show">
+				英语英语英语
+			</div>
+			<div id="" class="content">
+				数学数学数学
+			</div>
+			<div id="" class="content">
+				物理物理物理
+			</div>
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+	border: 0;
+	background: none;
+}
+
+body {
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+
+a:link,
+a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h2 {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+/* Table切换 */
+.list0 {
+	width: 638px;
+	margin-top: 25px;
+	float: left;
+	position: relative;
+}
+
+#SwitchBigPic {
+	border: 1px solid #ddd;
+}
+
+/*先隐藏所有左边的图片*/
+#SwitchBigPic span {
+	display: none;
+}
+
+#SwitchBigPic img {
+	width: 448px;
+	height: 375px;
+}
+
+/*类名为sp表示显示该元素*/
+#SwitchBigPic .sp {
+	display: block;
+}
+
+#SwitchNav {
+	width: 190px;
+	position: absolute;
+	top: 0px;
+	left: 447px;
+}
+
+#SwitchNav li {
+	width: 190px;
+	height: 125px;
+	margin-bottom: 1px;
+}
+
+#SwitchNav a {
+	display: block;
+	width: 190px;
+	height: 125px;
+	background: url(../images/txt_111_1.jpg) no-repeat;
+}
+
+#SwitchNav .txt_img2 {
+	background: url(../images/txt_222_2.jpg) no-repeat;
+}
+
+#SwitchNav .txt_img3 {
+	background: url(../images/txt_333_3.jpg) no-repeat;
+}
+
+#SwitchNav .txt_img1:hover {
+	background: url(../images/txt_111.jpg) no-repeat;
+}
+
+#SwitchNav .txt_img2:hover {
+	background: url(../images/txt_222.jpg) no-repeat;
+}
+
+#SwitchNav .txt_img3:hover {
+	background: url(../images/txt_333.jpg) no-repeat;
+}

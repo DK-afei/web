@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>全选反选不选</title>
+		<script type="text/javascript" src="js/select.js">
+			
+		</script>
+		
+	</head>
+
+	<body>
+		<input type="button" name="" id="selectAll" value="全选" />
+		<input type="button" name="" id="selectNone" value="不选" />
+		<input type="button" name="" id="selectRevert" value="反选" />
+		<div id="items">
+			<input type="checkbox" name="" id="" value="" /><br />
+			<input type="checkbox" name="" id="" value="" /><br />
+			<input type="checkbox" name="" id="" value="" /><br />
+			<input type="checkbox" name="" id="" value="" /><br />
+			<input type="checkbox" name="" id="" value="" /><br />
+			<input type="checkbox" name="" id="" value="" /><br />
+			<input type="checkbox" name="" id="" value="" /><br />
+			<input type="checkbox" name="" id="" value="" /><br />
+		</div>
+		<script type="text/javascript">
+			b1=document.getElementById('selectAll');
+			b2=document.getElementById('selectNone');
+			b3=document.getElementById('selectRevert');
+			chks=document.getElementsByTagName('input');
+			b1.onclick=function()
+			{
+				for(var i=0;i<chks.length;i++)
+				chks[i].checked=true;
+			}
+			b2.onclick=function()
+			{
+				for(var i=0;i<chks.length;i++)
+				chks[i].checked=false;
+			}
+			b3.onclick=function()
+			{
+				for(var i=0;i<chks.length;i++)
+				{
+					if(chks[i].checked==false)
+					chks[i].checked=true;
+					else if(chks[i].checked=true)
+					chks[i].checked=false;
+				}
+				
+			}
+		</script>
+	</body>
+
+</html>

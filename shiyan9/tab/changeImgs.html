@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/changeImgs.css" />
+	</head>
+
+	<body>
+		<div id="features">
+			<h2>hover改变图片demo</h2>
+			<div class="list0">
+				<div id="SwitchBigPic">
+					<span class="sp"><a href="#"><img src="images/111.jpg" /></a></span>
+					<span><a href="#"><img src="images/222.jpg" /></a></span>
+					<span><a href="#"><img src="images/333.jpg" /></a></span>
+				</div>
+				<ul id="SwitchNav">
+					<li>
+						<a class="txt_img1" href="#"></a>
+					</li>
+					<li>
+						<a class="txt_img2" href="#"></a>
+					</li>
+					<li>
+						<a class="txt_img3" href="#"></a>
+					</li>
+				</ul>
+			</div>
+	</body>
+	<script type="text/javascript">
+		var a_li = document.getElementById('SwitchNav').getElementsByTagName('li');
+		var a_span = document.getElementById('SwitchBigPic').getElementsByTagName('span');
+		var currentIndex = 0;
+		var timer = setInterval(autochange, 1000);
+		
+		function autochange() {
+		if(currentIndex>2)
+		currentIndex=0;
+		for(var i=0; i<a_li.length;i++)
+			a_span[i].className='';
+			a_span[currentIndex].className='sp';
+			currentIndex++;
+			}
+		
+		
+		for (var i = 0; i < a_li.length; i++) {
+			a_li[i].onmouseover = function() {
+				if(timer)
+				{
+					clearInterval(timer);
+				}
+				for (var j = 0; j < a_span.length; j++)
+					if (this == a_li[j]) {
+						a_span[j].className = 'sp';
+						currentIndex=i;
+					}
+				else
+					a_span[j].className = '';
+			}
+			a_li[i].onmouseleave = function()
+			{
+				timer = setInterval(autochange,2000);
+			}
+		}
+			
+				
+	</script>
+</html>
